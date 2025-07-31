@@ -46,15 +46,15 @@ SRCS =	$(SRCDIR)/ft_isalpha.c \
  		$(SRCDIR)/ft_putnbr_fd.c \
  		$(SRCDIR)/ft_split.c \
 
-SRCS_BONUS =	$(SRCDIR)/ft_lstnew.c \
-				$(SRCDIR)/ft_lstadd_front.c \
-				$(SRCDIR)/ft_lstsize.c \
-				$(SRCDIR)/ft_lstlast.c \
-				$(SRCDIR)/ft_lstadd_back.c \
-				$(SRCDIR)/ft_lstdelone.c \
-				$(SRCDIR)/ft_lstclear.c \
-				$(SRCDIR)/ft_lstiter.c \
-				$(SRCDIR)/ft_lstmap.c \
+SRCS_BONUS =	$(SRCDIR)/ft_lstnew_bonus.c \
+				$(SRCDIR)/ft_lstadd_front_bonus.c \
+				$(SRCDIR)/ft_lstsize_bonus.c \
+				$(SRCDIR)/ft_lstlast_bonus.c \
+				$(SRCDIR)/ft_lstadd_back_bonus.c \
+				$(SRCDIR)/ft_lstdelone_bonus.c \
+				$(SRCDIR)/ft_lstclear_bonus.c \
+				$(SRCDIR)/ft_lstiter_bonus.c \
+				$(SRCDIR)/ft_lstmap_bonus.c \
 
 #troca o nome para .o
 OBJ_BONUS = $(SRCS_BONUS:$(SRCDIR)/%.c=%.o)
